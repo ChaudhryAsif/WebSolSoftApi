@@ -52,6 +52,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'WebSolTemplate'
-          slot-name: 'production'
+          slot-name: 'development'
           package: .
           publish-profile: ${{ secrets.AzureAppService_PublishProfile_1dc35c3696a4484fa9b06181660efe11 }}
